@@ -1,0 +1,43 @@
+<application>
+  <component name="WebServers">
+    <sftpAdvancedGlobalOptions>
+      <SftpAdvancedOptions hostKeyCheckingLevel="NO">
+        <option name="hostKeyCheckingLevel" value="NO" />
+      </SftpAdvancedOptions>
+    </sftpAdvancedGlobalOptions>
+    <option name="servers">
+      <webServer id="83242e03-7f3e-4fd6-99f6-317c405ab518" name="sitnsleep" url="http://sitnsleep.dk.mag.scandesigns.dk">
+        <fileTransfer host="sitnsleep.dk.mag.scandesigns.dk" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/ext/vhosts/sitnsleep.dk/public" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="33f2f8d2-b298-4015-8dc2-4106397c4727" name="bevola" url="http://www.bevola.dk/">
+        <fileTransfer host="77.66.89.241" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="53d3eeee-e8d4-473a-92da-9b5a527bf24b" name="mandalay.dk" url="https://www.mandalay.dk">
+        <fileTransfer host="mandalay.dk" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/ext/vhosts/staging.mandalay.dk/public" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="de8169df-c7e5-475a-b453-e91406ea99f7" name="jhengros" url="http://www.jhengros.dk">
+        <fileTransfer host="prod26.magentohotel.dk" port="21" rootFolder="/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

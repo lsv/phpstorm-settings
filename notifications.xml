@@ -1,0 +1,6 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId="Composer" displayType="NONE" />
+    <notification groupId="Docker: Dockerfile detection" displayType="NONE" shouldLog="false" />
+  </component>
+</application>
