@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '[dcs] - .../src'" />
-    <option name="defaultScopeName" value="Directory '[dcs] - .../src'" />
-    <option name="SEARCH_SCOPE" value="Directory '[dcs] - .../src'" />
+    <option name="customScope" value="Module 'dcs'" />
+    <option name="defaultScopeName" value="Module 'dcs'" />
+    <option name="SEARCH_SCOPE" value="Module 'dcs'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
