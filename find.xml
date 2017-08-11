@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="All Places" />
-    <option name="defaultScopeName" value="All Places" />
-    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="customScope" value="Directory '[dcs] - .../src/Dcs/BridgeBundle/C5HistoryParser'" />
+    <option name="defaultScopeName" value="Directory '[dcs] - .../src/Dcs/BridgeBundle/C5HistoryParser'" />
+    <option name="SEARCH_SCOPE" value="Directory '[dcs] - .../src/Dcs/BridgeBundle/C5HistoryParser'" />
     <recentFileMasks>
       <mask>*.properties</mask>
       <mask>*.html</mask>
