@@ -21,8 +21,9 @@
       <mapping pattern="yuLyqxPVhIvkN-J5vfo9y0ULj7DqpH7S-sEBBuGGybs" type="PLAIN_TEXT" />
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="timedcommand" type="PLAIN_TEXT" />
-      <mapping ext="default" type="PLAIN_TEXT" />
       <mapping ext="tmpl" type="PLAIN_TEXT" />
+      <mapping ext="default" type="PLAIN_TEXT" />
+      <mapping ext="message" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
       <mapping ext="pem" type="PLAIN_TEXT" />
     </extensionMap>
